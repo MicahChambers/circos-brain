@@ -1,11 +1,12 @@
 # region parcellated_structure_code r g b z1 z2 z3 z4 z5
 #
 # r g b          - RGB values of structure's color 
-# z1 z2 z3 z4 z5 - structure measures (shown as heat maps in image) 
+# z1 z2 z3 z4 z5 - left structure measures (shown as heat maps in image) 
+# z6 z7 z8 z9 z10 - right structure measures (shown as heat maps in image) 
 
 # Each region (except BSt) will have a left and right side
 
-Fro TrFPoG/S 255 153 153 0.910094 0.265257 0.893188 0.220351 0.810623  0.910094 0.265257 0.893188 0.220351 0.810623
+Fro TrFPoG/S 255 153 153 0 0 0 0 0 0.910094 0.265257 0.893188 0.220351 0.810623
 Fro FMarG/S 204 0 51 0.631798 0.571077 0.332158 0.104455 0.173531  0.631798 0.571077 0.332158 0.104455 0.173531
 Fro MFS 255 153 51 0.502931 0.567394 0.854165 0.0401409 0.484983  0.502931 0.567394 0.854165 0.0401409 0.484983
 Fro LOrS 102 0 0 0.108022 0.639396 0.013111 0.720184 0.151863  0.108022 0.639396 0.013111 0.720184 0.151863

@@ -161,19 +161,25 @@ sub write_links {
 	close(F);
 }
 
+#added different metrics on each side
 sub write_heatmap {
 	my @brain = @_;
 	my @regions = get_regions(@brain);
 	for my $i (0..4) {
 		open(F,">".make_filename($CONF{datadir},"measure.$i.txt"));
 		for my $side (qw(l r)) {
+			my $j = $i;
+			if($side eq "r") {
+				$j = $j+5;
+			}
+
 			for my $region (@regions) {
 				my $region_name = make_region_name($region,$side);
 				next unless $region_name;
 				my @structures = get_structures($region,@brain);
 				for my $structure (@structures) {
 					my $sobj = get_structure($structure,@brain);
-					my $value = $sobj->{heatmap}[$i];
+					my $value = $sobj->{heatmap}[$j];
 					printf F ("%s %d %d %f\n",
 										$region_name,
 										@{$sobj}{qw(start end)},

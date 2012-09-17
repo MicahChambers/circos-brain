@@ -1,4 +1,22 @@
 #!/bin/bash
 
-./parsemap -map map.txt -links map.links.txt
-circos
+MAP=$1
+LINKS=$2
+OUT=$3
+PERL=`which perl`
+
+if [ $# -ne 3 ]; then 
+	echo "Error: Usage:"
+	echo "run map links outdir"
+	exit -1
+fi
+
+mkdir $OUT
+
+cp -a etc $OUT/
+mkdir $OUT/data
+
+DIR="$( cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+$PERL $DIR/parsemap -map $1 -links $2 -datadir $OUT/data
+cd $OUT
+$PERL $DIR/circos-0.62-1/bin/circos 

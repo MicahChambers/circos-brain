@@ -8,7 +8,7 @@ parsemap - create Circos segment and color files from brain region map
 
 =head1 SYNOPSIS
 
-  cat map.txt | ./parsemap [-confdir etc/] [-links map.links.txt]
+  cat map.txt | ./parsemap [-confdir etc/] [-links map.links.txt] [-datadir dataout/]
 
   ./parsemap -map map.txt -links map.links.txt
 
@@ -79,6 +79,7 @@ our @COMMAND_LINE = ("map=s",
 										 "links=s",
 										 "configfile=s",
 										 "confdir=s",
+										 "datadir=s",
 										 "help",
 										 "man",
 										 "debug:i");

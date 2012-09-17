@@ -180,6 +180,9 @@ sub write_heatmap {
 				for my $structure (@structures) {
 					my $sobj = get_structure($structure,@brain);
 					my $value = $sobj->{heatmap}[$j];
+					if(not $value) {
+						$value = $sobj->{heatmap}[$j % 5];
+					}
 					printf F ("%s %d %d %f\n",
 										$region_name,
 										@{$sobj}{qw(start end)},

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export PERL5LIB=/home/mchamber/circos-brain/deps/lib/perl5/site_perl/5.8.8/:/home/mchamber/circos-brain/deps/lib64/perl5/site_perl/5.8.8/x86_64-linux-thread-multi/
+
 MAP=$1
 LINKS=$2
 OUT=$3

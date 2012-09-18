@@ -1,0 +1,220 @@
+=head2 Mon Sep 17 16:36:32 2012: C<Module> L<Clone|Clone>
+
+=over 4
+
+=item *
+
+C<installed into: /home/mchamber//circos-brain/deps/lib/perl5/site_perl/5.8.8>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.31>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Sep 17 16:40:55 2012: C<Module> L<Text::Format|Text::Format>
+
+=over 4
+
+=item *
+
+C<installed into: /home/mchamber//circos-brain/deps/lib/perl5/site_perl/5.8.8>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.58>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Sep 17 16:48:37 2012: C<Module> L<IO::String|IO::String>
+
+=over 4
+
+=item *
+
+C<installed into: /home/mchamber//circos-brain/deps/lib/perl5/site_perl/5.8.8>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.08>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Sep 17 16:52:37 2012: C<Module> L<IO::String|IO::String>
+
+=over 4
+
+=item *
+
+C<installed into: /home/mchamber/circos-brain/deps/lib/perl5/site_perl/5.8.8>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.08>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Sep 17 16:55:43 2012: C<Module> L<IO::String|IO::String>
+
+=over 4
+
+=item *
+
+C<installed into: /home/mchamber/circos-brain/deps/lib/perl5/site_perl/5.8.8>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.08>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Sep 17 16:56:42 2012: C<Module> L<Compress::Raw::Bzip2|Compress::Raw::Bzip2>
+
+=over 4
+
+=item *
+
+C<installed into: /home/mchamber/circos-brain/deps/lib/perl5/site_perl/5.8.8>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.055>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Sep 17 16:56:50 2012: C<Module> L<Compress::Raw::Zlib|Compress::Raw::Zlib>
+
+=over 4
+
+=item *
+
+C<installed into: /home/mchamber/circos-brain/deps/lib/perl5/site_perl/5.8.8>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.056>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Sep 17 16:59:45 2012: C<Module> L<IO::Compress|IO::Compress>
+
+=over 4
+
+=item *
+
+C<installed into: /home/mchamber/circos-brain/deps/lib/perl5/site_perl/5.8.8>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.055>
+
+=item *
+
+C<EXE_FILES: bin/zipdetails>
+
+=back
+
+=head2 Mon Sep 17 17:05:21 2012: C<Module> L<IO::String|IO::String>
+
+=over 4
+
+=item *
+
+C<installed into: /home/mchamber/circos-brain/deps/lib/perl5/site_perl/5.8.8>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.08>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Sep 17 17:07:06 2012: C<Module> L<Font::TTF|Font::TTF>
+
+=over 4
+
+=item *
+
+C<installed into: /home/mchamber/circos-brain/deps/lib/perl5/site_perl/5.8.8>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.02>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

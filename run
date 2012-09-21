@@ -17,7 +17,8 @@ mkdir $OUT
 
 cp -a $DIR/etc $OUT/
 mkdir $OUT/data
+cp -a $DIR/data/* $OUT/data
 
-$PERL $DIR/parsemap -map $1 -links $2 -confdir $DIR/etc -datadir $OUT/data
 cd $OUT
+$PERL $DIR/parsemap -map $1 -links $2 -confdir etc -datadir data
 $PERL $DIR/circos-0.62-1/bin/circos 

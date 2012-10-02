@@ -1,4 +1,4 @@
-#!/bin/env perl
+#!/usr/bin/perl
 
 =pod
 
@@ -147,7 +147,7 @@ sub write_links {
 		my $s1obj = get_structure($s1,@brain);
 		my $s2obj = get_structure($s2,@brain);
 
-		printf F ("%s %d %d %s %d %d type=%d,score=%f\n",
+		printf F ("%s %d %d %s %d %d type=%f,score=%f\n",
 							make_region_name($s1obj->{region},$side1) ||
 							make_region_name($s1obj->{region},"l"),
 							$s1obj->{start},

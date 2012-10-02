@@ -7,18 +7,24 @@ LINKS=$2
 OUT=$3
 PERL=`which perl`
 
-if [ $# -ne 3 ]; then 
+if [[ $# -ne 3 && $# -ne 4 ]]; then 
 	echo "Error: Usage:"
-	echo "run map links outdir"
+	echo "run map links outdir [avg|diff]"
 	exit -1
 fi
 
 mkdir $OUT
-
-cp -a $DIR/etc $OUT/
+rm -fr $OUT/circos.{png,svg}
+rm -fr $OUT/etc
+rm -fr $OUT/data
 mkdir $OUT/data
-cp -a $DIR/data/* $OUT/data
 
+if [ "$4" == "" ]; then
+	cp -auv $DIR/etc $OUT/etc
+else
+	cp -auv $DIR/etc.$4 $OUT/etc
+fi
+
+$PERL $DIR/parsemap -map $1 -links $2 -confdir $OUT/etc -datadir $OUT/data
 cd $OUT
-$PERL $DIR/parsemap -map $1 -links $2 -confdir etc -datadir data
 $PERL $DIR/circos-0.62-1/bin/circos 
